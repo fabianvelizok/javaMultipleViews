@@ -5,19 +5,17 @@
  */
 package controlador;
 
-import javax.swing.JFrame;
-
 /**
  *
  * @author veliz
  */
-public class LoginControlador extends BaseControlador {
-    public LoginControlador() {
-        super("VistaLogin");
+public class ControladorPrincipal {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {        
+        ControladorLogin.mostrar();
     }
     
-    public void login() {
-        JFrame v = getVistaInstancia();
-        System.out.println(v);
-    }
 }

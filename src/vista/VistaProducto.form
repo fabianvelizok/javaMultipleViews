@@ -43,7 +43,7 @@
   <SubComponents>
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
-        <Property name="text" type="java.lang.String" value="login"/>
+        <Property name="text" type="java.lang.String" value="producto"/>
       </Properties>
     </Component>
   </SubComponents>

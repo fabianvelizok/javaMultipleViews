@@ -3,9 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package vistas;
+package vista;
 
-import controlador.LoginControlador;
+import controlador.ControladorLogin;
+import javax.swing.JPasswordField;
+import javax.swing.JTextField;
 
 /**
  *
@@ -106,8 +108,7 @@ public class VistaLogin extends javax.swing.JFrame {
     }//GEN-LAST:event_jTextFieldUsuarioActionPerformed
 
     private void jButtonIngresarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonIngresarActionPerformed
-        LoginControlador l = new LoginControlador();
-        l.login();
+        ControladorLogin.login();
     }//GEN-LAST:event_jButtonIngresarActionPerformed
 
     /**
@@ -144,6 +145,16 @@ public class VistaLogin extends javax.swing.JFrame {
             }
         });
     }
+
+    public JPasswordField getjPasswordFieldContrasenia() {
+        return jPasswordFieldContrasenia;
+    }
+
+    public JTextField getjTextFieldUsuario() {
+        return jTextFieldUsuario;
+    }
+    
+    
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButtonIngresar;
