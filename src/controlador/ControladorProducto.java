@@ -21,4 +21,16 @@ public class ControladorProducto {
     public static void ocultar() {
         vista.setVisible(false);
     }
+    
+    public static void agregarProducto() {
+        
+    }
+    
+    public static void modificarProducto() {
+        
+    }
+    
+    public static void eliminarProducto() {
+        
+    }
 }
